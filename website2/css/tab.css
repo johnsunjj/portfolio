@@ -1,0 +1,492 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (min-width:721px) and (max-width:1000px)
+{
+.container
+{
+	width: 90%;
+	height: 5700px;
+	background-color:#F2F2F2;
+	font-family:Arial;
+	
+}
+.gallery
+{
+	width: 100%;
+	height: 580px;
+	background-image:url("../image/gallery3.jpg")
+
+}
+.logo
+	{
+		width: 10%;
+		font-size: 20px;
+		font-weight: 50;
+		color: #ffffff;
+		float: left;
+		margin-top: 40px;
+		margin-left: 10%;
+	}
+.menu
+	{
+	width:40%;
+	margin-top: 20px;
+	margin-left: 15%;
+	float: left;
+	}
+	
+.register
+	{
+		width: 12%;
+		height: 50px;
+		margin-top: 35px;
+		color: #FFFFFF;
+		background-color:#00A3FF;
+		border: 1px solid #00A3FF;
+	    border-radius: 5px;
+		float:left;
+	}
+.register p
+	{
+		margin-left: 20%;
+	}
+	
+nav
+{
+	padding:10px;
+	color:#FFFFFF;	
+}
+nav ul
+{
+	list-style:none;
+}
+nav li
+{
+	display:inline;
+	margin:0px 3%;
+	text-transform:capitalize;
+	font-size:15px;
+}
+nav a
+{
+	color:#ffffff;
+	text-decoration:none;
+}
+nav a:hover
+{
+	color:#FFFFFF;
+}
+span
+{
+	margin: 40px;
+}
+.welcome
+	{
+		width: 500px;
+		margin-left: 20%;
+		position: absolute;
+		top:200px;
+		color: #FFFFFF;
+		text-align: center;
+	}
+h2
+	{
+		font-size: 40px;
+		font-weight: 100px;
+	}
+.featured
+	{
+		width: 100%;
+		height: 600px;
+		margin-top: 80px;
+	}
+.box1
+	{
+	   width:43%;
+	   height: 420px;
+	   background-color: #FFFFFF;
+	   margin-left: 5%;
+	   margin-top: 3%;
+	   border: 1px solid #D6D6D6;
+	   border-radius: 10px;
+	   float: left;
+	}
+.box1 img 
+	{
+		width: 100%;
+		height: 180px;	
+	}
+.star img
+	{
+		width: 120px;
+		height: 30px;
+		margin-left: 15px;
+		float: left;
+	}
+.box1 p
+	{
+		color:#0E0C0C;
+		margin: 15px;
+		text-align: justify;		
+	}
+.box1 b
+	{
+		color: #08A0FF;
+		font-weight: 100px;
+	}
+.box1 span
+	{
+		padding: 5px 20px;
+		margin-left: 1px;
+		margin-top: 25px;
+		color: #FFFFFF;
+		background-color:#00A3FF;
+		border: 1px solid #00A3FF;
+	   border-radius: 10px;
+	}
+.categories
+	{
+		width: 100%;
+		height: 55S0px;
+		margin-top: 50px;
+		margin-left: 2%;
+		float: left;
+	}
+.categories h3
+	{
+		padding-top: 20px;
+	    font-size: 25px;
+		margin-left: 35%;
+		color: #0097FE;
+	}
+	.categories p
+	{
+		font-size: 15px;
+		margin-left: 37%;
+		color: #989898;
+	}
+	.icons
+	{
+		float: left; 	
+	}
+	.icons1
+	{
+		width: 25%;
+		height: 200px;
+		margin-left: 40px;
+		float: left;
+	}
+	.icons1 p
+	{
+		margin-top: 0px;
+		color: #898989;
+	}
+.trending
+	{
+		width: 80%;
+		height: 740px;
+		margin-left: 10%;
+		float: left;
+	}
+.realestate
+	{
+		width: 100%;
+		height: 200px;
+		background-color:#ffffff;
+		margin-left: 2.5%;
+		margin-top: 2.5%;
+		border: 1px solid #D6D6D6;
+		box-shadow:2px 2px 10px 2px  rgba(0,0,0,0.1);
+	    border-radius: 10px;
+		float: left;
+		}
+.realestate h3
+	{
+		margin-left: 30px;
+	
+	}
+.realestate p
+	{
+		margin-left: 30px;
+		color: #00BDFF;
+	}
+.realestate1
+	{
+		float: left;
+	}
+.realestatepic
+	{
+		float: left;
+	}
+
+.realestate span
+	{
+		font-size: 13px;
+		text-align: left;
+		margin: 0px;
+		color: #222223;
+	}
+.testimonials
+	{
+		width: 80%;
+		height: 500px;
+		margin-left: 10%;
+	    float: left;
+		margin-top: 75%;
+	}
+.testimonials1
+	{
+		width: 15%;
+		height: 500px;
+		float: left;
+		
+	}
+.testimonials1 img
+	{
+		width: 30%;
+		margin-left: 30%;
+		margin-top: 200px;
+	}
+.testimonials2
+	{
+		width: 70%;
+		height: 500px;
+		float: left;
+	}
+.testimonials h3
+	{
+		text-align: center;
+		font-family:Times New Roman;
+		color: #0097FF;
+		font-weight: 200;
+		font-size: 30px;
+	}
+.testimonials p
+	{
+		font-size: 20px;
+		line-height: 45px;
+		text-align: center;
+	}
+.testimonials2 img
+	{
+		width: 20%;
+		margin-left: 40%;
+	}
+.ourblog
+	{
+		width:80%;
+		height: 700px;
+		margin-left: 10%;
+		margin-top: 15%;
+		float:left;
+	}
+.ourblog1
+	{
+		width: 100%;
+	}
+.ourblog1 h3
+	{
+		font-size: 30px;
+		color: #00B0FF;
+		text-align: center;
+	}
+.ourblog1 p
+	{
+		text-align: center;
+	}
+.car
+	{
+		width: 30%;
+		height: 500px;
+		margin-left: 2.4%;
+		margin-top: 4%;
+		float: left;
+	}
+.car img
+	{
+		width: 90%;
+	}
+
+.car h4
+	{
+		text-align:center;
+		font-size: 18px;
+	}
+.car h5
+	{
+		margin-left: 10%;
+	}
+.car p
+	{
+		text-align: left;
+		margin: 7%;
+		line-height: 30px;
+	}
+.car h5 span
+	{
+		color:#00B0FF;
+		
+	}
+.view
+	{
+		width: 10%;
+		height: 25px;
+		margin-left: 45%;
+		padding: 10px;
+		background-color: #00B0FF;
+		color: #FFFFFF;
+		background-color:#00A3FF;
+		border: 1px solid #00A3FF;
+	   border-radius: 5px;
+		text-align: center;
+		float: left;
+	}
+.newsletter
+	{
+		width: 100%;
+		height: 150px;
+		background-color:#00B0FF;
+		float: left;
+		margin-top: 60px;
+		color: #FFFFFF;
+		font-size: 17px;
+	}
+.newsletter1
+	{
+		width: 35%;
+		height: 100px;
+		margin-left: 15%;
+		margin-top: 20px;
+		float: left;
+		
+	}
+	
+.newsletter2
+	{
+		width: 35%;
+		height: 150px;
+		margin-left: 5%;
+		margin-top: 40px;
+		float: left;
+	}
+.about
+	{
+		width: 100%;
+		height: 500px;
+		background-color: #333333;
+		float:left;
+		padding-top: 100px;
+	}
+.about1
+	{
+		width: 50%;
+		height: 300px;
+		float: left;
+		margin-left: 13%;
+		
+	}
+.about p
+	{
+		color:#CACACA;
+		line-height: 25px;
+		
+	}
+.about span
+	{
+		color: #ffffff;
+		margin-left: auto;
+	}
+.navigations
+	{
+		width: 30%;
+		height: 300px;
+		float: left;
+		margin-left: 2%;
+	}
+.follow
+	{
+		width: 30%;
+		height: 300px;
+		float: left;
+		margin-left: 15%;
+	}	
+.follow img
+	{
+		width: 40px;
+		float: left;
+
+	}	
+		
+.search
+	{
+		width: 45%;
+		height: 300px;
+		float: left;
+		margin-left: 10%;
+	}
+.navigations p
+	{
+		margin-left: 40px;
+	}
+.navigations ul
+	{
+		list-style:none;
+		margin-left: 0px;
+		line-height: 35px;
+		color:#CACACA;
+	}
+.search1
+	{
+		width: 45%;
+		height: 30px;
+		margin-top: 35px;
+		color: #FFFFFF;	
+		border: 2px solid #CACACA;
+		float:left;
+	}
+.search1 p
+	{
+		margin-left: 10%;
+		margin-top: 2px;
+		color: #CACACA;
+		opacity: 50%;
+	}
+.search2
+	{
+	    width: 25%;
+		height: 30px;
+		margin-top: 35px;
+		color: #FFFFFF;
+		background-color:#00A3FF;
+		border: 2px solid #00A3FF;
+		float:left;	
+	}
+.search2 p
+	{
+		margin-left: 15%;
+		margin-top: 2px;
+		color: #FFFFFF;
+		
+	}
+.about hr
+	{
+		width: 60%;
+		margin-left: 20%;
+		opacity: 30%;
+		float: left;
+	}
+.copyright
+	{
+		width: 100%;
+		height: 150px;
+		background-color: #333333;
+		float:left;
+	}
+.copyright p
+	{
+		opacity: 30%;
+		margin-left: 40%;
+		color: #ffffff;
+	}
+
+}
